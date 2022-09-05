@@ -1,0 +1,165 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background-color:#66b4e4;
+  color:#e9e91b;
+  font-family:'Source Sans Pro', sans-serif;
+  
+}
+
+h1{
+  font-family:'Caveat Brush', cursive;
+  margin:24px auto 12px;
+   font-size:70px;
+  text-shadow:0px 0px 5px black;
+  padding-top:20px;
+  text-align:center;
+  font-weight:800;
+  }
+.form-wrapper{
+  width:100%;
+  display:box;
+  display:flexbox;
+  display:flex;
+  justify-content:center;
+  position:relative
+}
+#quizForm{
+  justify-align:center;
+  justify-content:center;
+  background-color:#2b3252;
+  height:;
+  width:50%;
+  border-radius:4px;
+  padding:24 12px;
+  margin-bottom:24px;
+margin-left:50%;
+  
+  
+}
+p{
+  font-size:18px;
+  font-weight:700;
+  margin-top:16px;
+  margin-bottom:8px;
+
+}
+
+label{
+  display:block;
+  margin:12px 8px;
+  letter-spacing:1px
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #66b4e4;
+  color: #e9e91b;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-family: "Caveat Brush", cursive;
+  margin: 24px auto 12px;
+  font-size: 70px;
+  text-shadow: 0px 0px 5px black;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.form-wrapper {
+  width: 100%;
+  display: box;
+  display: flexbox;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#quizForm {
+  border-radius: 4px;
+  padding: 24px 12px;
+  margin-bottom: 24px;
+  margin-left: 12%;
+  width: 50%;
+  background-color: #2b3252;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+label {
+  display: block;
+  margin: 12px 8px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #fad744;
+  border-bottom: none;
+}
+
+.score-card {
+  width: 150px;
+  height: 200px;
+  background-color: #fff;
+  position: sticky;
+  vertical-align: top;
+  top: 5%;
+  left: 76%;
+  border-radius: 12px;
+  padding: 16px 24px;
+  /*   position:relative;
+/*   top:5%; */
+}
+
+.score-card p {
+  font-size: 24px;
+  color: black;
+}
+
+h2 {
+  font-size: 46px;
+  color: black;
+}
+
+#submit-button-wrapper {
+  margin: 16px 0 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: #2b3252;
+  background-color: #fad744;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 26px;
+  cursor: pointer;
+}
