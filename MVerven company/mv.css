@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* utils */
+:root {
+  --primary: #4c3e79;
+  --black: #222;
+  --gray: #999;
+}
+
+/* to avoid arrow in number field */
+/* chrome, safari */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Mozila */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.flex1{
+    flex: 1 !important;
+}
+
+.btn {
+  font-weight: 500;
+  padding: 16px 40px;
+  border: none;
+  background-color: white;
+  border: 1.5px solid var(--primary);
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.primary{
+    color: white;
+    background-color: var(--primary);
+}
+
+.secondary{
+    color: var(--primary);
+    background-color: white;
+}
+
+/*  */
+body {
+    font-family: 'Lato', sans-serif;
+    /* min-height: 100vh; */
+    /* overflow: hidden; */
+}
+img{
+    background-size: cover;
+}
+/* Left side of the web page */
+.mverse-page{
+    display: flex;
+    width: 100%;
+    /* min-height: 100vh; */
+}
+.mverse-left-container{
+    width: 40%;
+    background-image: url('./Web\ –\ Graphic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .mverse-left-container .MobileImage{
+  display: none;
+} */
+
+/* Right side of the web page */
+.mverse-right-container{
+  margin: 60px 80px;
+  width: 60%;
+}
+.mverse-right-container .Header{
+  color:var(--primary);
+  font-size: 33px;
+  margin-bottom: 50px;
+}
+.DetailsConatiner{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.ButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    gap: 15px;
+}
+.FormField {
+    margin: 10px;
+    width: 100%;
+    flex: 2;
+  }
+.FormField label{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.FormField input,
+.FormField textarea {
+    padding: 10px 15px;
+    border: .5px solid #bcbcbc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 3px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.FormField input{
+    height: 50px;
+}
+.FormField textarea{
+    height: 108px;
+}
+.PasswordContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: .5px solid #bcbcbc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 3px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.PasswordContainer input{
+  border:none;
+  box-shadow: initial;
+  margin:0;
+}
+.PasswordContainer input:focus{
+outline:none;
+}
+.PasswordImg{
+  width:20px;
+  height:20px;
+  margin:0 5px;
+}
+@media(max-width:990px){
+
+}
+

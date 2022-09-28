@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVerse</title>
+    <link rel="stylesheet" href="./mv.css">
+</head>
+<body>
+    <main class="mverse-page">
+        <aside class="mverse-left-container">
+            <!-- <img src="./asset/Web – Graphic.png" alt="Welcome to Mverse Web" class="WebImage"/>
+            <img src="./asset/Mobile – Graphic.png" alt="Welcome to Mverse Mobile" class="MobileImage"/> -->
+        </aside>
+        <section class="mverse-right-container">
+            <h1 class="Header"> Create an account</h1>
+            <form id='form' class="FormFieldContainer" >
+                <section id="PersonalDetails" class="DetailsConatiner">
+                    <div class="FormField">
+                        <label for="first_name">Fisrt Name</label>
+                        <input type="text" name="firstName" id="first_name" placeholder="First Name">
+                    </div>
+                    <div class="FormField">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="lastName" id="last_name" placeholder="Last Name">
+                    </div>
+                    <div class="FormField flex1">
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" placeholder="18 - 100" min="18" max="100">
+                    </div>
+                </section>
+                <section id="ContactDetails" class="DetailsConatiner">
+                    <div class="FormField">
+                        <label for="mobile_number">Mobile Number</label>
+                        <input type="number" name="mobileNumber" id="mobile_number" placeholder="xxxxx xxxxx" size="10">
+                    </div>
+                    <div class="FormField">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="abc@xxx.zzz">
+                    </div>
+                </section>
+                <section id="Description" class="DetailsConatiner">
+                    <div class="FormField">
+                        <label for="description">Description</label>
+                        <textarea name="description" id="description"></textarea>
+                    </div>  
+                </section>
+                <section id="PasswordDetails" class="DetailsConatiner">
+                    <div class="FormField">
+                        <label for="password">Password</label>
+                        <div class="PasswordContainer">
+                            <input type="password" name="password" id="password">
+                            <img class="PasswordImg" src="../MVerven company/see_password_icon.png" alt="">
+                         </div>
+                    </div>
+                    <div class="FormField">
+                        <label for="confirm_password">Confirm Password</label>
+                        <div class="PasswordContainer">
+                            <input type="password" name="confirmPassword" id="confirm_password">
+                            <img class="PasswordImg" src="../MVerven company/see_password_icon.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="ButtonContainer">
+                    <button class="btn secondary">RESET</button>
+                    <button type="submit" class="btn primary" onClick="createAccount()">SUBMIT</button>
+                </section>
+            </form>
+        </section>
+    </main>
+    <script defer src="./mv.js"></script>
+</body>
+</html>
